@@ -6,13 +6,13 @@
     <title>Unity WebGL Player | Chess</title>
   </head>
   <body style="text-align: center">
-    <canvas id="unity-canvas" style="width: 600px; height: 600px; background: #231F20"></canvas>
-    <script src="Build/Desktop.loader.js"></script>
+    <canvas id="unity-canvas" style="width: 890px; height: 600px; background: #231F20"></canvas>
+    <script src="Build/Chess.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/Desktop.data.gz",
-        frameworkUrl: "Build/Desktop.framework.js.gz",
-        codeUrl: "Build/Desktop.wasm.gz",
+        dataUrl: "Build/Chess.data.gz",
+        frameworkUrl: "Build/Chess.framework.js.gz",
+        codeUrl: "Build/Chess.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Chess",
